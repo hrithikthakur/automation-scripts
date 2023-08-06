@@ -1,4 +1,4 @@
-# Automation Repository
+# Automation Scripts
 
 This repository contains a set of automation scripts designed to either simplify, streamline or automate a certain workflow, thus solving a specific problem in my digital life. Feel free to reuse it according to your convenienve. The repository includes the following files:
 
