@@ -1,6 +1,6 @@
 # Automation Repository
 
-Welcome to the Automation Repository, a collection of meticulously crafted automation scripts designed to simplify and optimize your workflow. These scripts were ingeniously created to address specific challenges in the digital realm, making your digital life a breeze. The repository encompasses a variety of automation solutions, each meticulously designed for peak efficiency.
+This repository contains a set of automation scripts designed to either simplify, streamline or automate a certain workflow, thus solving a specific problem in my digital life. Feel free to reuse it according to your convenienve. The repository includes the following files:
 
 ## Table of Contents
 
