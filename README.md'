@@ -1,0 +1,63 @@
+# Automation Repository
+
+This repository contains a set of automation scripts designed to simplify and streamline your workflow. These scripts are created to perform specific tasks, making your 
+development process more efficient and less error-prone. The repository includes the following files:
+
+## git_scr.py
+
+`git_scr.py` is a bash script that automates the process of committing changes to a Git repository and pushing them to a remote repository. It accepts a commit message as a 
+parameter and performs the following actions:
+
+- Checks if a commit message is provided. If not, it displays an error message and returns.
+- Commits the changes with the provided commit message using `git commit -am "$MSG"`.
+- Pushes the committed changes to the remote repository.
+
+Usage:
+
+```bash
+./git_scr.sh "Your commit message here"
+```
+
+## download_youtube.py
+
+`download_youtube.py` is a Python script that uses the `pytube` library to download the highest resolution video from a YouTube link. It takes a YouTube video URL as a 
+parameter and performs the following actions:
+
+- Retrieves video information such as title and views.
+- Downloads the video in the highest available resolution.
+- Saves the downloaded video to a specified folder.
+
+Usage:
+
+```bash
+python download_youtube.py <YouTube_URL>
+```
+
+Please note that you need to have Python and the `pytube` library installed to use this script.
+
+## Getting Started
+
+1. Clone the repository to your local machine using `git clone <repository_url>`.
+2. Make sure you have the required dependencies installed for each script. For `download_youtube.py`, install the `pytube` library using `pip install pytube`.
+3. Run the scripts according to the provided usage instructions.
+
+## Contribution
+
+Feel free to contribute to this repository by adding more automation scripts or improving the existing ones. Follow these steps to contribute:
+
+1. Fork the repository and create a new branch for your changes.
+2. Make your modifications and test the scripts thoroughly.
+3. Submit a pull request, explaining the changes you've made and their benefits.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Contact
+
+If you have any questions or suggestions, please feel free to contact the project maintainers:
+
+- Your Name: [Your Email]
+- Project Maintainer: [Maintainer Email]
+
+We appreciate your interest and hope these automation scripts enhance your development workflow
