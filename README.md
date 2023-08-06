@@ -2,6 +2,12 @@
 
 Welcome to the Automation Repository, a collection of meticulously crafted automation scripts designed to simplify and optimize your workflow. These scripts were ingeniously created to address specific challenges in the digital realm, making your digital life a breeze. The repository encompasses a variety of automation solutions, each meticulously designed for peak efficiency.
 
+## Table of Contents
+
+- [Auto-commit and Push](#auto-commit-and-push)
+- [YouTube Video Downloader](#youtube-video-downloader)
+- [License](#license)
+
 ## [Auto-commit and Push](git_scr.sh)
 
 `git_scr.py` is a brilliant bash script meticulously engineered to revolutionize your Git workflow. It streamlines the process of committing changes to your Git repository and seamlessly pushes them to a remote destination. With an elegant touch, it allows you to provide a commit message as a parameter, orchestrating the following symphony of actions:
@@ -32,4 +38,4 @@ python download_youtube.py <YouTube_URL>
 
 ## License
 
-This project is licensed under the MIT License. For a closer look, delve into the [LICENSE](LICENSE) file for a tale of permissions and possibilities.
+This captivating project is licensed under the MIT License. For a closer look, delve into the [LICENSE](LICENSE) file for a tale of permissions and possibilities.
