@@ -18,7 +18,7 @@ This repository contains a set of automation scripts designed to either simplify
 **Usage:**
 
 ```bash
-./git_scr.sh "Your mesmerizing commit message here"
+./git_scr.sh "Your mesmerising commit message here"
 ```
 
 ## [YouTube Video Downloader](yt_downloader.py)
