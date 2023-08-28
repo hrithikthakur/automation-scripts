@@ -1,8 +1,8 @@
 ## Auto-commit and Push
--git_scr.py is a bash script that automates the process of committing changes to a Git repository and pushing them to a remote repository. It accepts a commit message as a parameter and performs the following actions: 
-   -- Checks if a commit message is provided. If not, it displays an error message and returns. 
-   -- Commits the changes with the provided commit message using git commit -am "$MSG". 
-   -- Pushes the committed changes to the remote repository.
+`auto_commit_and_push.py` is a bash script that automates the process of committing changes to a Git repository and pushing them to a remote repository. It accepts a commit message as a parameter and performs the following actions: 
+   - Checks if a commit message is provided. If not, it displays an error message and returns.
+   -  Commits the changes with the provided commit message using git commit -am "$MSG".
+   -   Pushes the committed changes to the remote repository.
 
 
 ## Usage
