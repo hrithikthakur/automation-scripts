@@ -35,7 +35,7 @@ Unlock the secrets of ad-free, high-resolution YouTube videos without shelling o
 python download_youtube.py <YouTube_URL>
 ```
 
-## [Privately fork a Public Repo](privately_fork_a_public_repo.sh)
+## [Privately fork a Public Repo](privately-fork-a-public-repo.sh)
 GitHub doesn't allow you to privately fork a public repo. So, they are visible on your public profile. Some of us don't like this! And, here is a (legal?)  workaround.
 
 ### How it works
