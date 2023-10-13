@@ -28,7 +28,7 @@ def get_destination_folder():
         if use_saved:
             return saved_folder
 
-    folder = input("Enter the destination folder for downloads: ")
+    folder = input("Enter the destination folder for the download: ")
     if not os.path.exists(folder):
         os.makedirs(folder)
 
@@ -51,8 +51,8 @@ def download_video(video_link, destination_folder):
         print("An error occurred:", e)
 
 if __name__ == "__main__":
-    if len(argv) == 1:
-        link = input("Enter the video link: ")
+    if len(argv) == 2:
+        link = argv[1]
         folder = get_destination_folder()
         download_video(link, folder)
     elif len(argv) == 3:
