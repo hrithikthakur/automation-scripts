@@ -8,5 +8,5 @@ Unlock the secrets of ad-free, high-resolution YouTube videos without shelling o
 **Usage:**
 
 ```bash
-python download_youtube.py <YouTube_URL>
+python yt_downloader.py <YouTube_URL>
 ```
