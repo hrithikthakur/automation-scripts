@@ -9,7 +9,7 @@ This repository contains a set of automation scripts designed to either simplify
 - [Privately fork a Public Repo](#privately-fork-a-public-repo)
 - [License](#license)
 
-## [Auto-commit and Push](git_scr.sh)
+## [Auto-commit and Push](auto-commit-and-push.sh)
 
 -`git_scr.py` is a bash script that automates the process of committing changes to a Git repository and pushing them to a remote repository. It accepts a commit message as a parameter and performs the following actions:
   -- Checks if a commit message is provided. If not, it displays an error message and returns.
@@ -22,7 +22,7 @@ This repository contains a set of automation scripts designed to either simplify
 ./git_scr.sh "Your mesmerising commit message here"
 ```
 
-## [YouTube Video Downloader](yt_downloader.py)
+## [YouTube Video Downloader](youtube-downloader.py)
 
 Unlock the secrets of ad-free, high-resolution YouTube videos without shelling out for a premium subscription. This Python script takes a YouTube video URL as input and delivers a triple treat: unveiling video insights like title and views, capturing videos in the highest resolution possible, and neatly organizing your downloads in a folder of your choice. It uses the `pytube` library to download the highest resolution video from a given YouTube link as a parameter and performs the following actions:
   -- Retrieves video information such as title and views.
