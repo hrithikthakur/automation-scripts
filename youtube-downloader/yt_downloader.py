@@ -1,5 +1,39 @@
 from pytube import YouTube
 from sys import argv
+import os
+import configparser
+
+CONFIG_FILE = "config.ini"
+
+def save_config(destination_folder):
+    config = configparser.ConfigParser()
+    config['DEFAULT'] = {'DestinationFolder': destination_folder}
+
+    with open(CONFIG_FILE, 'w') as configfile:
+        config.write(configfile)
+
+def load_config():
+    config = configparser.ConfigParser()
+
+    if os.path.exists(CONFIG_FILE):
+        config.read(CONFIG_FILE)
+        return config['DEFAULT']['DestinationFolder']
+    else:
+        return None
+
+def get_destination_folder():
+    saved_folder = load_config()
+    if saved_folder:
+        use_saved = input(f"Use saved destination folder '{saved_folder}'? (y/n): ").lower() == 'y'
+        if use_saved:
+            return saved_folder
+
+    folder = input("Enter the destination folder for downloads: ")
+    if not os.path.exists(folder):
+        os.makedirs(folder)
+
+    save_config(folder)
+    return folder
 
 def download_video(video_link, destination_folder):
     try:
@@ -17,9 +51,13 @@ def download_video(video_link, destination_folder):
         print("An error occurred:", e)
 
 if __name__ == "__main__":
-    if len(argv) != 3:
-        print("Usage: python download_video.py <video_link> <destination_folder>")
-    else:
+    if len(argv) == 1:
+        link = input("Enter the video link: ")
+        folder = get_destination_folder()
+        download_video(link, folder)
+    elif len(argv) == 3:
         link = argv[1]
         folder = argv[2]
         download_video(link, folder)
+    else:
+        print("Usage: python download_video.py <video_link> <destination_folder>")
