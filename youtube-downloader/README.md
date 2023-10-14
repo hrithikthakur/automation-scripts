@@ -7,7 +7,7 @@ This Python script allows you to download YouTube videos using the `pytube` libr
 ## Prerequisites
 
 - Python installed (version 3.6 or above)
-- Required library: `pytube` (install using `pip install pytube`)
+- Required library: `pytube` (install using `pip3 install pytube`)
 
 ## Usage
 
@@ -28,7 +28,7 @@ If no command-line arguments are provided, the script will interactively prompt 
 
 ## Configuration
 
-The script utilizes a configuration file (`config.ini`) to store the default destination folder. If you've used the script before, it will ask if you want to use the saved destination folder.
+The script utilises a configuration file (`config.ini`) to store the default destination folder. If you've used the script before, it will ask if you want to use the saved destination folder.
 
 ## How to Run
 
@@ -39,17 +39,17 @@ The script utilizes a configuration file (`config.ini`) to store the default des
    - Command-line arguments:
 
      ```bash
-     python3 download_video.py <video_link> <destination_folder>
+     python3 yt_downloader.py <video_link> <destination_folder>
      ```
 
    - Interactive mode:
 
      ```bash
-     python3 download_video.py
+     python3 yt_downloader.py
      ```
 
 4. Follow the on-screen prompts to complete the process.
 
 ## Note
-
+- The detinatiion folder accepts both absolute and relative paths.
 - In case of any errors during the download, the script will display an error message.
