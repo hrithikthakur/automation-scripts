@@ -19,7 +19,7 @@ This Python script allows you to download YouTube videos using the `pytube` libr
 #### Example:
 
 ```bash
-python3 download_video.py <video_link> <destination_folder>
+python3 yt_downloader.py <video_link> <destination_folder>
 ```
 
 ### Interactive mode
