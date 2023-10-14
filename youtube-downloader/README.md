@@ -1,7 +1,3 @@
-Sure thing! Here's a simple README for your script:
-
----
-
 # YouTube Video Downloader
 
 ## Overview
@@ -57,7 +53,3 @@ The script utilizes a configuration file (`config.ini`) to store the default des
 ## Note
 
 - In case of any errors during the download, the script will display an error message.
-
----
-
-Feel free to customize this README based on your preferences or any additional information you want to include.
