@@ -1,12 +1,63 @@
-## [YouTube Video Downloader](yt_downloader.py)
+Sure thing! Here's a simple README for your script:
 
-Unlock the secrets of ad-free, high-resolution YouTube videos without shelling out for a premium subscription. This Python script takes a YouTube video URL as input and delivers a triple treat: unveiling video insights like title and views, capturing videos in the highest resolution possible, and neatly organizing your downloads in a folder of your choice. It uses the `pytube` library to download the highest resolution video from a given YouTube link as a parameter and performs the following actions:
-  -- Retrieves video information such as title and views.
-  -- Downloads the video in the highest available resolution.
-  -- Saves the downloaded video to a specified folder.
+---
 
-**Usage:**
+# YouTube Video Downloader
+
+## Overview
+
+This Python script allows you to download YouTube videos using the `pytube` library. You can specify the video link and destination folder either through command-line arguments or interactively.
+
+## Prerequisites
+
+- Python installed (version 3.6 or above)
+- Required library: `pytube` (install using `pip install pytube`)
+
+## Usage
+
+### Command-line arguments
+
+1. **Video Link**: Provide the YouTube video link as the first command-line argument.
+2. **Destination Folder (optional)**: Optionally, you can specify the destination folder as the second command-line argument.
+
+#### Example:
 
 ```bash
-python3 yt_downloader.py <YouTube_URL>
+python3 download_video.py <video_link> <destination_folder>
 ```
+
+### Interactive mode
+
+If no command-line arguments are provided, the script will interactively prompt you for the video link and destination folder.
+
+## Configuration
+
+The script utilizes a configuration file (`config.ini`) to store the default destination folder. If you've used the script before, it will ask if you want to use the saved destination folder.
+
+## How to Run
+
+1. Open a terminal or command prompt.
+2. Navigate to the directory containing the script.
+3. Run the script using one of the following methods:
+
+   - Command-line arguments:
+
+     ```bash
+     python3 download_video.py <video_link> <destination_folder>
+     ```
+
+   - Interactive mode:
+
+     ```bash
+     python3 download_video.py
+     ```
+
+4. Follow the on-screen prompts to complete the process.
+
+## Note
+
+- In case of any errors during the download, the script will display an error message.
+
+---
+
+Feel free to customize this README based on your preferences or any additional information you want to include.
