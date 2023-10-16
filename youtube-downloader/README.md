@@ -53,3 +53,4 @@ The script utilises a configuration file (`config.ini`) to store the default des
 ## Note
 - The detinatiion folder accepts both absolute and relative paths.
 - In case of any errors during the download, the script will display an error message.
+- Months after finsihing the first draft of the code, I did find a [website](https://iyoutubetomp4.com/en4/) that already does this but sometimes it'd redirect you to gentlemanly places.
