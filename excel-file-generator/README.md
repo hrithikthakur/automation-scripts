@@ -1,4 +1,4 @@
-# Excel File Creator
+# Excel File Generator
 
 This Python script takes input from a text file, processes the data by removing specified characters, and creates an Excel file with the cleaned data.
 
