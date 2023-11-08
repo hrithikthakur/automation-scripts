@@ -6,8 +6,8 @@ if [[ -z $1 ]]; then
     exit 1
 fi
 
-cd ~/Code
-USERNAME="hrithikthakur"    #your github username
+cd ~/Code                   #path to the directory you want to clone the repo in
+USERNAME="heyitsme"    #your github username
 
 REPO_URL="$1"           
 
